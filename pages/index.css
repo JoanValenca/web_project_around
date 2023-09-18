@@ -14,3 +14,7 @@
 /* ------------------------footer---------------------------------- */
 
 @import url(../Blocks/footer.css);
+
+@import url(../Blocks/opacityAll.css);
+
+@import url(../Blocks/popUp.css);
