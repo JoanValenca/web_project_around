@@ -1,0 +1,50 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, calc(100% / 3));
+  grid-gap: 20px 16.96px;
+  justify-content: space-between;
+  font-size: 0;
+  margin-top: 46.25px;
+}
+.cards__card {
+  border-radius: 20px;
+  background-color: white;
+}
+.cards__image {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.cards__title {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  width: 100%;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.cards__label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 1.3rem 1.9rem;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input ~ span svg path[clip-rule="evenodd"] {
+  background-repeat: no-repeat;
+  transition: all 200ms ease;
+  fill: rgba(0, 0, 0, 0);
+}
+input:checked ~ span svg path[clip-rule="evenodd"] {
+  background-repeat: no-repeat;
+  fill: rgba(0, 0, 0, 1);
+}
