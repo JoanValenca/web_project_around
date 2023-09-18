@@ -3,10 +3,13 @@
   height: 50px;
   flex-shrink: 0;
   border: 1px solid #fff;
-  background: url(/images/outline_add_white_24dp.png) no-repeat center;
+  background: url(/images/Add\ Button.png) no-repeat center;
   cursor: pointer;
   align-self: center;
   display: flex;
   justify-content: flex-end;
   margin-left: auto;
+}
+.profile__button-add:hover {
+  opacity: 0.7;
 }
