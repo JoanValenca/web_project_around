@@ -1,10 +1,13 @@
 @import url(../Blocks/page/page.css);
 @import url(../vendor/inter/inter.css);
-
+@import url(../vendor/normalize.css);
 /* ------------------------/header/--------------------------------- */
+
 @import url(../Blocks/header/header.css);
+
 /* -----------------------/profile---------------------------------- */
 @import url(../Blocks/profile/profile.css);
+@import url(../Blocks/profile/info/info.css);
 @import url(../Blocks/profile/info/__name/__name.css);
 @import url(../Blocks/profile/info/__aboutMe/__aboutMe.css);
 @import url(../Blocks/profile/image/__image.css);
