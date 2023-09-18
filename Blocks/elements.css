@@ -48,3 +48,12 @@ input:checked ~ span svg path[clip-rule="evenodd"] {
   background-repeat: no-repeat;
   fill: rgba(0, 0, 0, 1);
 }
+
+.cards__label span svg:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+input:checked ~ span svg:hover {
+  opacity: 1;
+}
