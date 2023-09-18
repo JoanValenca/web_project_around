@@ -1,2 +1,12 @@
 @import url(../Blocks/page/page.css);
+@import url(../vendor/inter/inter.css);
+
+/* ------------------------/header/--------------------------------- */
 @import url(../Blocks/header/header.css);
+/* -----------------------/profile---------------------------------- */
+@import url(../Blocks/profile/profile.css);
+@import url(../Blocks/profile/info/__name/__name.css);
+@import url(../Blocks/profile/info/__aboutMe/__aboutMe.css);
+@import url(../Blocks/profile/image/__image.css);
+@import url(../Blocks/profile/info/__button-edit/__button-edit.css);
+@import url(../Blocks/profile/button-add/__button-add.css);

@@ -1,0 +1,7 @@
+.profile {
+  display: flex;
+  /* width: 100%; */
+  border-top: 1px solid #545454;
+  padding-top: 36.25px;
+  font-family: "Inter";
+}

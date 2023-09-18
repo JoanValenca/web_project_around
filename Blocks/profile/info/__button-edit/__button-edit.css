@@ -1,0 +1,8 @@
+.profile__button-edit {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  background: url(/images/outline_edit_white_18dp.png) no-repeat center;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
