@@ -38,7 +38,7 @@
   height: 50px;
   flex-shrink: 0;
   border: 1px solid #fff;
-  background: url(/images/Add\ Button.png) no-repeat center;
+  background: url(/images/add-button\(MAIS\).svg) no-repeat center;
   cursor: pointer;
   align-self: center;
   display: flex;
@@ -57,4 +57,42 @@
   line-height: 48px;
   display: inline;
   margin-right: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .profile__Name {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .profile {
+    padding: 0 1.19rem;
+    flex-direction: column;
+  }
+  .profile__image {
+    margin: 0 0 1.64rem;
+    align-self: center;
+  }
+  .profile__info {
+    text-align: center;
+  }
+  .profile__Name {
+    font-size: 22px;
+    margin-right: 9.92px;
+  }
+  .profile__button-edit {
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+  .profile__button-add {
+    margin: 0 auto;
+    width: 100%;
+    /* border: none; */
+    color: #fff;
+  }
+  .profile__aboutMe {
+    font-size: 18px;
+    margin: 0 0 36px;
+  }
 }

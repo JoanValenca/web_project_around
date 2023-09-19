@@ -10,3 +10,10 @@
   line-height: normal;
   margin-top: 68px;
 }
+
+@media screen and (max-width: 576px) {
+  .footer {
+    text-align: center;
+    margin: 0 19px;
+  }
+}
