@@ -73,6 +73,7 @@
   .profile__image {
     margin: 0 0 1.64rem;
     align-self: center;
+    margin-top: 38.25px;
   }
   .profile__info {
     text-align: center;
@@ -89,7 +90,6 @@
     margin: 0 auto;
     width: 100%;
     /* border: none; */
-    color: #fff;
   }
   .profile__aboutMe {
     font-size: 18px;
