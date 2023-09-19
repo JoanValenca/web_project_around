@@ -1,12 +1,12 @@
 .popUp {
   max-width: 430px;
   width: 100%;
-  height: 330px;
   flex-shrink: 0;
-  padding: 36px;
-  background-color: aliceblue;
+  position: absolute;
   border-radius: 10px;
-  position: relative;
+  background-color: #fff;
+  padding: 34px 36px 36.51px;
+  box-sizing: border-box;
 }
 .popUp__close_button {
   position: absolute;
@@ -24,4 +24,62 @@
 .popUp__close_button img {
   width: 100px;
   height: 100px;
+}
+
+.popUp__close_button:hover {
+  opacity: 0.5;
+}
+
+.popUp__editar {
+  color: #000;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 54px;
+  margin: 0 0 1.5rem;
+}
+
+.popUp__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popUp__input {
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 13px 5px;
+  margin-top: 17px;
+  font-family: "Inter";
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.popUp__submit {
+  /* width: 100%;
+  height: 50.152px;
+  font: "Inter";
+  background-color: #000000;
+  border-radius: 2px;
+  margin-top: 48px; */
+  margin: 48px 0 0;
+  width: 100%;
+  padding: 14px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  cursor: pointer;
+}
+.popUp__submit:disabled {
+  opacity: 0.8;
+  background-color: #fff;
+  border: 1px solid;
+  color: grey;
 }
