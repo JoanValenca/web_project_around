@@ -1,9 +1,10 @@
 .footer {
   width: 318px;
+  font-family: inherit;
 }
 .footer__copyright {
   color: #545454;
-  font-family: Inter;
+  /* font-family: Inter; */
   font-size: 18px;
   font-style: normal;
   font-weight: 400;

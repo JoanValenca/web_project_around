@@ -1,5 +1,5 @@
 const modalOpacity = document.querySelector(".modalOpacity");
-const popUpCloseButton = document.querySelector(".popUp__close_button");
+const popUpCloseButton = document.querySelector(".popUp__close-button");
 const profileButtonedit = document.querySelector(".profile__button-edit");
 const popupSubmit = document.querySelector(".popUp__submit");
 const popupMe = document.querySelector("#me");
